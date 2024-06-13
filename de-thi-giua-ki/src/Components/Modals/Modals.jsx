@@ -35,6 +35,7 @@ const Modals = ({
       <button className="btn btn-primary" onClick={handleClose}>
         close
       </button>
+      <p className="card-text">{description}</p>
       <form className="card-body">
         <h5 className="card-title">
           {""}
@@ -49,7 +50,6 @@ const Modals = ({
             />
           )}
         </h5>
-        <p className="card-text">{description}</p>
       </form>
 
       {show && (
