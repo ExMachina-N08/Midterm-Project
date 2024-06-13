@@ -1,6 +1,15 @@
 import React from "react";
-
-const Header = () => {
+import { useState } from "react";
+const Header = (
+  key,
+  image,
+  name,
+  description,
+  episode,
+  movies,
+  setMovies,
+  index
+) => {
   return (
     <>
       <nav className="navbar navbar-dark  navbar-expand-lg bg-body-transparent">
