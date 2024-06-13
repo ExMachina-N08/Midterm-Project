@@ -1,0 +1,17 @@
+:root {
+  body {
+    background-color: #192026;
+  }
+  .form-control {
+    background-color: #374151;
+    border: 0;
+  }
+  .form-control::placeholder {
+    color: gray;
+  }
+
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+  }
+}
