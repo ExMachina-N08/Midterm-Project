@@ -9,16 +9,19 @@
   .form-control::placeholder {
     color: gray;
   }
+
   .branding {
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
   }
+
   .card:hover {
-    transform: scale(1.05);
-    transition: 0.3s;
+    transform: scale(1.02);
+    transition: 0.5s;
   }
   b {
     font-size: 25px;
+    font-weight: 600;
   }
   .greeting {
     color: grey;
@@ -51,7 +54,7 @@
     font-weight: bolder;
   }
   .nav-link {
-    font-size: 23px;
+    font-size: 18px;
   }
   .title {
     font-size: 40px;

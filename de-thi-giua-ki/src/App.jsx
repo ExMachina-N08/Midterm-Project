@@ -25,7 +25,10 @@ function App() {
           <h1 className=" py-3 text-light ">
             <b>New Release</b>
           </h1>
-          <div className="px-0 py-2 my-3 mx-0 container d-flex flex-row">
+          <div
+            className="px-0  my-3 mx-0 container d-flex flex-row"
+            style={{ paddingBottom: 40 }}
+          >
             {movies.map((items, index) => {
               return (
                 <Cards
