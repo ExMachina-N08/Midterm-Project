@@ -1,22 +1,6 @@
 import React from "react";
 import { useState } from "react";
-const Header = ({
-  key,
-  image,
-  name,
-  description,
-  episode,
-  movies,
-  setMovies,
-  index,
-  items,
-}) => {
-  const handleSearch = (value) => {
-    const moviesFilter = movies.filter((item) => {
-      return item.name == value;
-    });
-  };
-  console.log("search", handleSearch);
+const Header = () => {
   return (
     <>
       <nav className="navbar navbar-dark  navbar-expand-lg bg-body-transparent">
@@ -60,9 +44,6 @@ const Header = ({
                 aria-label="Search"
                 aria-describedby="search-addon"
               />
-              {/* <span class="input-group-text border-0" id="search-addon">
-                <i class="fas fa-search"></i>
-              </span> */}
             </form>
           </div>
         </div>

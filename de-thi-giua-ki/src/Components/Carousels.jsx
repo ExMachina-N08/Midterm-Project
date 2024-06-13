@@ -1,15 +1,7 @@
 import React from "react";
 import { Carousel } from "bootstrap";
 
-const Carousels = (
-  key,
-  image,
-  name,
-  description,
-  episode,
-  movies,
-  setMovies
-) => {
+const Carousels = () => {
   return (
     <>
       <div
