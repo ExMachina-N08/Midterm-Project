@@ -20,9 +20,9 @@ const Header = ({
   return (
     <>
       <nav className="navbar navbar-dark  navbar-expand-lg bg-body-transparent">
-        <div className="container-fluid d-flex mx-0 ">
+        <div className="container-fluid d-flex heading ">
           <h1 className="navbar-brand py-1 my-1  " href="#">
-            <strong className="h2">Anonime</strong>
+            <strong className="h2 branding">Anonime</strong>
           </h1>
           <button
             className="navbar-toggler"
@@ -41,17 +41,17 @@ const Header = ({
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link " aria-current="page" href="#">
                   Home
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  List Anime
+                  List anime
                 </a>
               </li>
             </ul>
-            <form class=" input-group w-auto">
+            <form class=" input-group w-25">
               <input
                 type="search"
                 onChange={(e) => handleSearch(e.target.value)}

@@ -9,9 +9,22 @@
   .form-control::placeholder {
     color: gray;
   }
+  .branding {
+    font-size: 30px;
+    font-weight: 800;
+  }
   .card:hover {
     transform: scale(1.05);
     transition: 0.3s;
+  }
+  b {
+    font-size: 25px;
+  }
+  .greeting {
+    color: grey;
+  }
+  .heading {
+    padding: 0;
   }
   .card-img-top {
     width: 600px;

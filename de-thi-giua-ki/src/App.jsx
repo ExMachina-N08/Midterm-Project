@@ -13,12 +13,10 @@ function App() {
           <Header />
         </div>
         <div>
-          <h1 className="text-light py-3">
+          <h1 className="text-light my-1">
             <b>Explore</b>
           </h1>
-          <p className="my-2 py-3 h5 text-white">
-            What are you gonna watch today ?
-          </p>
+          <p className=" py-3 h5 greeting">What are you gonna watch today ?</p>
           <div>
             <Carousels />
           </div>
