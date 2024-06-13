@@ -32,10 +32,10 @@ const Modals = ({
 
   return (
     <>
-      <button className="btn btn-primary" onClick={handleClose}>
+      <button className="btn btn-primary my-3" onClick={handleClose}>
         close
       </button>
-      <p className="card-text">{description}</p>
+      <p className="card-text h6">{description}</p>
       <form className="card-body">
         <h5 className="card-title">
           {""}
@@ -59,7 +59,7 @@ const Modals = ({
         </button>
       )}
       {!show && (
-        <button onClick={newName} type="submit">
+        <button className="btn btn-secondary" onClick={newName} type="submit">
           Save
         </button>
       )}

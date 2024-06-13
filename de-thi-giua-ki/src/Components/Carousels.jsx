@@ -22,8 +22,8 @@ const Carousels = (
             <img src="/CarouselP.bmp" className="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <div class="carousel-caption d-none d-md-block">
-                <h5 className="h1">Spy X Family</h5>
-                <p className="h4">
+                <h5 className="h1 title">Spy X Family</h5>
+                <p className="h4 intro">
                   A spy, an assassin and a telepath come together to pose as a
                   family, each for their own reasons, while hiding their true
                   identities from each
@@ -35,8 +35,8 @@ const Carousels = (
             <img src="/CarouselP.bmp" className="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <div class="carousel-caption d-none d-md-block">
-                <h5 className="h1">Spy X Family</h5>
-                <p className="h4">
+                <h5 className="h1 title">Spy X Family</h5>
+                <p className="h4 intro">
                   A spy, an assassin and a telepath come together to pose as a
                   family, each for their own reasons, while hiding their true
                   identities from each
@@ -48,8 +48,8 @@ const Carousels = (
             <img src="/CarouselP.bmp" className="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <div class="carousel-caption d-none d-md-block">
-                <h5 className="h1">Spy X Family</h5>
-                <p className="h4">
+                <h5 className="h1 title">Spy X Family</h5>
+                <p className="h4 intro">
                   A spy, an assassin and a telepath come together to pose as a
                   family, each for their own reasons, while hiding their true
                   identities from each
