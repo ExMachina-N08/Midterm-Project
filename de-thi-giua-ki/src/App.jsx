@@ -16,7 +16,9 @@ function App() {
           <h1 className="text-light py-3">
             <b>Explore</b>
           </h1>
-          <p className="my-2 h5 text-white">What are you gonna watch today ?</p>
+          <p className="my-2 py-3 h5 text-white">
+            What are you gonna watch today ?
+          </p>
           <div>
             <Carousels />
           </div>
@@ -25,7 +27,7 @@ function App() {
           <h1 className=" py-3 text-light ">
             <b>New Release</b>
           </h1>
-          <div className="py-2 my-3 container d-flex flex-row">
+          <div className="px-0 py-2 my-3 mx-0 container d-flex flex-row">
             {movies.map((items, index) => {
               return (
                 <Cards

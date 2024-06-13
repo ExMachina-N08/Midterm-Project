@@ -13,9 +13,9 @@ const Header = (
   return (
     <>
       <nav className="navbar navbar-dark  navbar-expand-lg bg-body-transparent">
-        <div className="container-fluid d-flex  ">
-          <h1 className="navbar-brand p-1 my-1 " href="#">
-            <b>Anonime</b>
+        <div className="container-fluid d-flex mx-0 ">
+          <h1 className="navbar-brand py-1 my-1  " href="#">
+            <strong className="h2">Anonime</strong>
           </h1>
           <button
             className="navbar-toggler"

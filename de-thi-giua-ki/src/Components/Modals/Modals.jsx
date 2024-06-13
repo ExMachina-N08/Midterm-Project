@@ -52,7 +52,12 @@ const Modals = ({
         <p className="card-text">{description}</p>
       </form>
 
-      {show && <button onClick={setEdit}> Edit Information</button>}
+      {show && (
+        <button className="btn btn-secondary" onClick={setEdit}>
+          {" "}
+          Edit Information
+        </button>
+      )}
       {!show && (
         <button onClick={newName} type="submit">
           Save
