@@ -18,7 +18,7 @@ const Carousels = (
         data-bs-ride="carousel"
       >
         <div className="carousel-inner rounded-4 shadow">
-          <div className="carousel-item active">
+          <div className=" mask bg-dark carousel-item active">
             <img src="/CarouselP.bmp" className="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <div class="carousel-caption d-none d-md-block">

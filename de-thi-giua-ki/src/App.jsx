@@ -24,24 +24,23 @@ function App() {
         <div className="">
           <h1 className=" py-3 text-light ">
             <b>New Release</b>
-            <div className="py-2 container d-flex flex-row">
-              {movies.map((items, index) => {
-                return (
-                  <Cards
-                    key={items.id}
-                    name={items.movieName}
-                    image={items.image}
-                    description={items.description}
-                    episode={items.episode}
-                    movies={movies}
-                    setMovies={setMovies}
-                    index={index}
-                  />
-                );
-              })}
-            </div>
           </h1>
-          <div className=" d-flex flex-row"></div>
+          <div className="py-2 my-3 container d-flex flex-row">
+            {movies.map((items, index) => {
+              return (
+                <Cards
+                  key={items.id}
+                  name={items.movieName}
+                  image={items.image}
+                  description={items.description}
+                  episode={items.episode}
+                  movies={movies}
+                  setMovies={setMovies}
+                  index={index}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </>
