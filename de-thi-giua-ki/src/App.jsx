@@ -39,6 +39,7 @@ function App() {
                   movies={movies}
                   setMovies={setMovies}
                   index={index}
+                  items={items}
                 />
               );
             })}

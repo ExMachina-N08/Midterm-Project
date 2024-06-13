@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-const Header = (
+const Header = ({
   key,
   image,
   name,
@@ -8,8 +8,15 @@ const Header = (
   episode,
   movies,
   setMovies,
-  index
-) => {
+  index,
+  items,
+}) => {
+  const handleSearch = (value) => {
+    const moviesFilter = movies.filter((item) => {
+      return item.name == value;
+    });
+  };
+  console.log("search", handleSearch);
   return (
     <>
       <nav className="navbar navbar-dark  navbar-expand-lg bg-body-transparent">
@@ -47,6 +54,7 @@ const Header = (
             <form class=" input-group w-auto">
               <input
                 type="search"
+                onChange={(e) => handleSearch(e.target.value)}
                 class="form-control rounded-5"
                 placeholder="Search anime or movies"
                 aria-label="Search"

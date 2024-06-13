@@ -27,7 +27,7 @@ const Cards = ({
       >
         <div onClick={handleOpen}>
           <img src={image} className="card-img-top img-fluid" alt="..." />
-          <div className=" card-body rounded-2 ">
+          <div className=" card-body rounded-2 bg-transparent ">
             <p className="card-text h6">Episode {episode}</p>
             <h5 className="card-title h6">{name}</h5>
           </div>
