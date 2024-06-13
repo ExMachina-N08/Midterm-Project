@@ -35,12 +35,13 @@ const Modals = ({
       <button className="btn btn-primary my-3" onClick={handleClose}>
         close
       </button>
-      <p className="card-text h6">{description}</p>
+      <p className="card-text h6 px-2">{description}</p>
       <form className="card-body">
         <h5 className="card-title">
           {""}
           {isEditing && (
             <textarea
+              rows={10}
               type="text"
               className="form-control text-black"
               defaultValue={description}

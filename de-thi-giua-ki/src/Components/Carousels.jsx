@@ -17,11 +17,14 @@ const Carousels = (
         className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div className="carousel-inner rounded-4 shadow">
-          <div className=" mask bg-dark carousel-item active">
+        <div className=" image carousel-inner rounded-4 shadow">
+          <div className="  bg-dark carousel-item active">
             <img src="/CarouselP.bmp" className="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <div class="carousel-caption d-none d-md-block">
+            <div class=" carousel-caption d-none d-md-block">
+              <div
+                class="carousel-caption d-none d-md-block"
+                style={{ zIndex: 1 }}
+              >
                 <h5 className="h1 title">Spy X Family</h5>
                 <p className="h4 intro">
                   A spy, an assassin and a telepath come together to pose as a
@@ -34,7 +37,10 @@ const Carousels = (
           <div className="carousel-item">
             <img src="/CarouselP.bmp" className="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <div class="carousel-caption d-none d-md-block">
+              <div
+                class="carousel-caption d-none d-md-block"
+                style={{ zIndex: 1 }}
+              >
                 <h5 className="h1 title">Spy X Family</h5>
                 <p className="h4 intro">
                   A spy, an assassin and a telepath come together to pose as a
@@ -47,7 +53,10 @@ const Carousels = (
           <div className="carousel-item">
             <img src="/CarouselP.bmp" className="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <div class="carousel-caption d-none d-md-block">
+              <div
+                class="carousel-caption d-none d-md-block"
+                style={{ zIndex: 1 }}
+              >
                 <h5 className="h1 title">Spy X Family</h5>
                 <p className="h4 intro">
                   A spy, an assassin and a telepath come together to pose as a
