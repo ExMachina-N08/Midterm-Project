@@ -32,11 +32,17 @@ const Modals = ({
 
   return (
     <>
-      <button className="btn btn-primary my-3" onClick={handleClose}>
+      <button
+        className="btn btn-primary my-3"
+        onClick={handleClose}
+        style={{ zIndex: 1 }}
+      >
         close
       </button>
-      <p className="card-text h6 px-2">{description}</p>
-      <form className="card-body">
+      <p className="card-text h6 px-2" style={{ zIndex: 1 }}>
+        {description}{" "}
+      </p>
+      <form className="card-body" style={{ zIndex: 1 }}>
         <h5 className="card-title">
           {""}
           {isEditing && (
@@ -54,13 +60,22 @@ const Modals = ({
       </form>
 
       {show && (
-        <button className="btn btn-secondary" onClick={setEdit}>
+        <button
+          className="btn btn-secondary"
+          onClick={setEdit}
+          style={{ zIndex: 1 }}
+        >
           {" "}
           Edit Information
         </button>
       )}
       {!show && (
-        <button className="btn btn-secondary" onClick={newName} type="submit">
+        <button
+          className="btn btn-secondary"
+          style={{ zIndex: 1 }}
+          onClick={newName}
+          type="submit"
+        >
           Save
         </button>
       )}

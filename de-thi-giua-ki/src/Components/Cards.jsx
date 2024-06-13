@@ -25,7 +25,11 @@ const Cards = ({
         className=" card mx-1 gx-3 border-0 bg-dark text-white"
         style={{ width: 600 }}
       >
-        <div onClick={handleOpen} style={{ cursor: "pointer" }}>
+        <div
+          className="image"
+          onClick={handleOpen}
+          style={{ cursor: "pointer" }}
+        >
           <img src={image} className=" card-img-top img-fluid" alt="..." />
           <div className=" card-body rounded-2 bg-transparent ">
             <p className="card-text h6">Episode {episode}</p>
